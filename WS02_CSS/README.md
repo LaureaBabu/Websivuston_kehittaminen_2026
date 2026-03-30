@@ -1,1 +1,1 @@
-Tämä on työpaja WS02_CSS kansio
+Tämä on työpaja WS02_CSS 

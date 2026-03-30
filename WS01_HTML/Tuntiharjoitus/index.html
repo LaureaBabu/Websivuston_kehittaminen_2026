@@ -1,9 +1,65 @@
-<!doctype html>
+  <!DOCTYPE html:5>
 <html lang="fi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Babun sivu</title>
-  </head>
-  <body></body>mitä vittua 
-</html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>babun nettisivu</title>
+  <link rel="stylesheet" href="main.css">
+  <style>:root {
+  --green: #00FF00;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+.light-theme {
+  --bg: var(--green);
+  --fontColor: var(--black);
+}
+
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--green);
+}
+
+.medium-theme {
+  --bg: #ADD8E6;
+  --fontColor: #0066CC;
+  font-family: Arial;
+}
+  
+  </style>
+</head>
+<body><script>alert('Hello World')</script>
+<h1>task list</h1>
+<p id="msg">current task: </p>
+  <ul id="tasklist">
+    <li class="list">add visual styles</li>
+    <li class="list">add light and dark themes</li>
+    <li class="list">enable switching between themes</li>
+  </ul>
+</body><body class="light-theme"></body>...
+<ul>
+  <li class="list">Add visual styles</li>
+  <li class="list">Add light and dark themes</li>
+  <li>Enable switching the theme</li>
+</ul>
+<script src="app.js"></script><script src="app.js"></script>
+<noscript>You need to enable JavaScript to view the full site.</noscript>
+...
+  </html>
+  
