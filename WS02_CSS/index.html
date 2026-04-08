@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>My First HTML Page</title>
+    <title>My First HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            color: rgb(224, 111, 111);
+        }
+    </style>
 </head>
 <body>
+    <div>
         <h1>Welcome to my Page</h1>
+        <form>
+        </form>
+    </div>
         <p>Moi mä oon Babu! Oon energinen ja erittäin puhelias.. Oon kiinnostunut kaikesta videopelaamisesta ja sisällön tuottamisesta. Teen töitä erikoisolut kaupassa ja tuotan sinne paljon sisältöä. Tässä on linkki minun sisältöön <a href="https://www.instagram.com/pienbottleshop/?hl=fi" target="_blank">Instagram</a></p>
-        <img src="images/IMG_0052.JPG" alt="minä ja koira" width="300">
+        <img class="bordered" src="images/IMG_0052.JPG" alt="minä ja koira" width="300">
     <h2>Harrastukset</h2>
     <ol>
         <li>Videopelit</li>
@@ -25,7 +35,10 @@
     </ul>
 <a href="https://untappd.com/PienSeltzer">Mun seltzerit</a>
 <br>
-
+<div class="content-box">
+  <h3>MIKS TÄÄ ON NII HANKALAA</h3>
+  <p>Ei se loppupeleis ollukkaa :D </p>
+</div>
 <h2>Kurssit</h2>
 <table>
     <tr>
@@ -41,13 +54,13 @@
         <td>Helppoa</td>
     </tr>
 
-</table>
-<form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
-    <input type="submit" value="Submit">
+    </table>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
