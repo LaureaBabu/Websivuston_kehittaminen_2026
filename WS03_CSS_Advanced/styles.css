@@ -1,0 +1,132 @@
+p {
+      color: rgb(0, 0, 0);
+    }
+    
+    body {
+      background-color: rgb(244, 236, 237);
+    }
+    
+    h1 {
+      font-size: 65px;
+    }
+.content-box {
+  padding: 20px;
+  margin: 10px;
+  background-color: #edd9a0;
+  border: 3px solid #ff0000;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #ff0000;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #ffffff;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ff0000;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+.bordered {
+  border: 3px solid #000;
+}
+.transition-button {
+        background-color: lightblue;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: lightcoral;
+      }
+      .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: lightgreen;
+        position: relative;
+        animation: move 2s infinite alternate;
+        margin-top: 40px;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+      table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.pseudo-list li:nth-child(odd) {
+  background-color: rgb(169, 226, 166);
+}
+
+.pseudo-list li:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+.filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+.quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: rgb(4, 4, 4);
+      }
