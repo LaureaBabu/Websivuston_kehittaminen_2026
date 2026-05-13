@@ -69,12 +69,12 @@ main {
     gap: 2rem;
     padding: 0 3%;
 }
-.hero {
+.pfp {
     text-align: center;
     transform: translateY(-100px);
 }
 
-.hero p {
+.pfp p {
   font-size: 1.3rem;
 }
 
@@ -120,7 +120,7 @@ h1 {
 .video-overlay {
     position: absolute;
     inset: 0;
-    display: flex;
+    display: fex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 1rem;
@@ -134,7 +134,7 @@ h1 {
     background: rgba(0, 0, 0, 0.55);
 }
 
-.about-right {
+.info-box {
     text-align: right;
     padding: 1.5rem;
     border-radius: 1rem;
@@ -144,30 +144,30 @@ h1 {
     transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
 }
 
-.about-right:hover {
+.info-box:hover {
     background: #cd14ab;
     color: #000;
     transform: scale(1.02);
     border-color: #cd14ab;
 }
 
-.about-right h2 {
+.info-box h2 {
     margin-bottom: 1rem;
     font-size: 2rem;
 }
 
-.about-right p {
+.info-box p {
     font-size: 1rem;
     line-height: 1.6;
 }
 
-.about-right a {
+.info-box a {
     color: #cd14ab;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
 
-.about-right:hover a {
+.info-box:hover a {
     color: #000;
 }
 
@@ -197,4 +197,3 @@ footer {
 }
 
 /* minusta sivu */  /* ylä on indexi */
-
