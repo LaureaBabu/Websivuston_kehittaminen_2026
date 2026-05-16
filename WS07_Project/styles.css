@@ -423,3 +423,9 @@ footer {
   border: #cd14ab solid 2px;
   flex-shrink: 0;
 }
+.osaaminen {
+    font-size: 2rem;
+}
+.skills-list {
+    font-size: 1.5rem;
+}
